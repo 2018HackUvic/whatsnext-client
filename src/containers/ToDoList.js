@@ -1,3 +1,4 @@
+import React from 'react';
 const ToDoList = () => {
   return (
     <div className="nav">
@@ -5,7 +6,6 @@ const ToDoList = () => {
         <li>list item</li>
         <li>list item</li>
       </ul>
-      <Link to="/"><button>Back Home</button></Link>
     </div>
   )
 }
