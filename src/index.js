@@ -14,7 +14,6 @@ import {
 } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import Auth from './containers/Auth';
 import ToDoList from './containers/ToDoList';
 import Login from './containers/Login/Login';
 import registerServiceWorker from './registerServiceWorker';
@@ -25,7 +24,6 @@ ReactDOM.render(
     < Router>
     <Switch>
         <Route exact path="/" component = {App} />
-        <Route exact path="/auth" component = {Auth} /> 
         <Route exact path="/login" component = {Login} /> 
         <Route exact path="/todoList" component = {ToDoList}/>
     </Switch>
